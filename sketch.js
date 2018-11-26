@@ -24,7 +24,7 @@ function setup() {
 }
 
 function draw() {
-  
+
   background(220, 5, 50);
   image(img1, 0, 0);
   image(img2, 0, 250);
@@ -33,12 +33,12 @@ function draw() {
   image(img7, 340, 200);
   image(img5, mouseX, mouseY);
   image(img4, xpos, 10);
-  
+
   //fill(9, 8, 255, 25)
   //ellipse(xpos, 50, 50, 50);
   //ellipse(xpos, 100, 50, 50);
-  
-  
+
+
   if (xpos > width) {
     xspeed = -4;
 }
