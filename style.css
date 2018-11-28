@@ -1,9 +1,10 @@
 html, body {
   background-color: blue
-  max-width: 1500px;
+  max-width: 2000px;
   margin: auto;
   padding: 0;
+  text-align: center;
 }
 canvas {
-  display: block;
+  display: center;
 }
